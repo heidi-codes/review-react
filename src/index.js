@@ -26,6 +26,7 @@ import Layout2 from "./36/Layout2";
 import LayoutResize from "./36/LayoutResize";
 import PortalSample from "./37/PortalSample";
 import AntdDialog from "./37/AntdDialog";
+import D3Sample from "./38/D3Sample";
 
 import "antd/dist/antd.css";
 
@@ -61,7 +62,8 @@ const routeMap = {
   layout2: Layout2,
   "layout-resize": LayoutResize,
   "portal-sample": PortalSample,
-  "antd-dialog": AntdDialog
+  "antd-dialog": AntdDialog,
+  "d3-sample": D3Sample
 };
 
 class App extends React.PureComponent {
