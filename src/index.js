@@ -24,6 +24,8 @@ import WizardSample from "./35/App";
 import Layout1 from "./36/Layout1";
 import Layout2 from "./36/Layout2";
 import LayoutResize from "./36/LayoutResize";
+import PortalSample from "./37/PortalSample";
+import AntdDialog from "./37/AntdDialog";
 
 import "antd/dist/antd.css";
 
@@ -57,7 +59,9 @@ const routeMap = {
   "wizard-sample": WizardSample,
   layout1: Layout1,
   layout2: Layout2,
-  "layout-resize": LayoutResize
+  "layout-resize": LayoutResize,
+  "portal-sample": PortalSample,
+  "antd-dialog": AntdDialog
 };
 
 class App extends React.PureComponent {
