@@ -28,6 +28,7 @@ import PortalSample from "./37/PortalSample";
 import AntdDialog from "./37/AntdDialog";
 import D3Sample from "./38/D3Sample";
 import DndSample from "./40/DndSample";
+import ReselectSample from "./43/ReselectSample";
 
 import "antd/dist/antd.css";
 
@@ -65,7 +66,8 @@ const routeMap = {
   "portal-sample": PortalSample,
   "antd-dialog": AntdDialog,
   "d3-sample": D3Sample,
-  "dnd-sample": DndSample
+  "dnd-sample": DndSample,
+  "reselect-sample": ReselectSample
 };
 
 class App extends React.PureComponent {
