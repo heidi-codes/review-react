@@ -13,6 +13,7 @@ import LocaleSample from "./07/LocaleSample";
 import PureRedux from "./11/PureRedux";
 import Counter from "./12/Counter";
 import OrgActions from "./14/OrgActions";
+import RouterSample from "./16/RouterSample";
 
 import "antd/dist/antd.css";
 
@@ -35,7 +36,8 @@ const routeMap = {
   "locale-sample": LocaleSample,
   "pure-redux": PureRedux,
   counter: Counter,
-  "org-actions": OrgActions
+  "org-actions": OrgActions,
+  "router-sample": RouterSample
 };
 
 class App extends React.PureComponent {
