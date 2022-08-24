@@ -3,6 +3,9 @@ import { render } from "react-dom";
 import Hello from "./Hello";
 import ChatApp from "./01/ChatApp";
 import CommentBox from "./02/CommentBox";
+import { TabSelectorSample } from "./02/TabSelector";
+import { StatefulTabSelectSample } from "./02/StatefulTabSelector";
+import Clock from "./03/Clock";
 
 import "antd/dist/antd.css";
 
@@ -15,7 +18,10 @@ const styles = {
 
 const routeMap = {
   chat: ChatApp,
-  "comment-box": CommentBox
+  "comment-box": CommentBox,
+  "tab-selector": TabSelectorSample,
+  "stateful-tab-selector": StatefulTabSelectSample,
+  clock: Clock
 };
 
 class App extends React.PureComponent {
