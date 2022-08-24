@@ -16,6 +16,8 @@ import OrgActions from "./14/OrgActions";
 import RouterSample from "./16/RouterSample";
 import RouterParams from "./17/RouterParams";
 import NestedRoute from "./17/NestedRoute";
+import FormSubmit from "./29/FormSubmit";
+import FormSubmitAntd from "./29/FormSubmitAntd";
 
 import "antd/dist/antd.css";
 
@@ -41,7 +43,9 @@ const routeMap = {
   "org-actions": OrgActions,
   "router-sample": RouterSample,
   "router-params": RouterParams,
-  "nested-route": NestedRoute
+  "nested-route": NestedRoute,
+  "form-submit": FormSubmit,
+  "form-submit-antd": FormSubmitAntd
 };
 
 class App extends React.PureComponent {
