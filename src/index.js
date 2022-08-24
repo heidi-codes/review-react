@@ -8,6 +8,7 @@ import { StatefulTabSelectSample } from "./02/StatefulTabSelector";
 import Clock from "./03/Clock";
 import SnapshotSample from "./04/SnapshotSample";
 import DomDiff from "./05/DomDiff";
+import { AdvancedTabSelectorSample } from "./06/AdvancedTabSelector";
 
 import "antd/dist/antd.css";
 
@@ -25,7 +26,8 @@ const routeMap = {
   "stateful-tab-selector": StatefulTabSelectSample,
   clock: Clock,
   "snapshot-sample": SnapshotSample,
-  "dom-diff": DomDiff
+  "dom-diff": DomDiff,
+  "adv-tab-selector": AdvancedTabSelectorSample
 };
 
 class App extends React.PureComponent {
