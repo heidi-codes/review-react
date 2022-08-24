@@ -1,13 +1,19 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import { render } from "react-dom";
+import Hello from "./Hello";
 
-import App from "./App";
+const styles = {
+  fontFamily: "sans-serif",
+  paddingLeft: "250px"
+};
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+class App extends React.PureComponent {
+  render() {
+    return (
+      <div style={styles}>
+        <Hello />
+      </div>
+    );
+  }
+}
+render(<App />, document.getElementById("root"));
