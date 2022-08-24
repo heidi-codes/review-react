@@ -18,6 +18,7 @@ import RouterParams from "./17/RouterParams";
 import NestedRoute from "./17/NestedRoute";
 import FormSubmit from "./29/FormSubmit";
 import FormSubmitAntd from "./29/FormSubmitAntd";
+import DynamicForm from "./30/DynamicForm";
 
 import "antd/dist/antd.css";
 
@@ -45,7 +46,8 @@ const routeMap = {
   "router-params": RouterParams,
   "nested-route": NestedRoute,
   "form-submit": FormSubmit,
-  "form-submit-antd": FormSubmitAntd
+  "form-submit-antd": FormSubmitAntd,
+  "dynamic-form": DynamicForm
 };
 
 class App extends React.PureComponent {
