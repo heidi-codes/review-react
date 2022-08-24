@@ -14,6 +14,8 @@ import PureRedux from "./11/PureRedux";
 import Counter from "./12/Counter";
 import OrgActions from "./14/OrgActions";
 import RouterSample from "./16/RouterSample";
+import RouterParams from "./17/RouterParams";
+import NestedRoute from "./17/NestedRoute";
 
 import "antd/dist/antd.css";
 
@@ -37,7 +39,9 @@ const routeMap = {
   "pure-redux": PureRedux,
   counter: Counter,
   "org-actions": OrgActions,
-  "router-sample": RouterSample
+  "router-sample": RouterSample,
+  "router-params": RouterParams,
+  "nested-route": NestedRoute
 };
 
 class App extends React.PureComponent {
