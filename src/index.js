@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import Hello from "./Hello";
 import ChatApp from "./01/ChatApp";
+import CommentBox from "./02/CommentBox";
 
 import "antd/dist/antd.css";
 
@@ -13,7 +14,8 @@ const styles = {
 };
 
 const routeMap = {
-  chat: ChatApp
+  chat: ChatApp,
+  "comment-box": CommentBox
 };
 
 class App extends React.PureComponent {
