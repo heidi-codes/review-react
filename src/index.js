@@ -20,6 +20,7 @@ import FormSubmit from "./29/FormSubmit";
 import FormSubmitAntd from "./29/FormSubmitAntd";
 import DynamicForm from "./30/DynamicForm";
 import ListSample from "./31/App";
+import WizardSample from "./35/App";
 
 import "antd/dist/antd.css";
 
@@ -49,7 +50,8 @@ const routeMap = {
   "form-submit": FormSubmit,
   "form-submit-antd": FormSubmitAntd,
   "dynamic-form": DynamicForm,
-  "list-page": ListSample
+  "list-page": ListSample,
+  "wizard-sample": WizardSample
 };
 
 class App extends React.PureComponent {
