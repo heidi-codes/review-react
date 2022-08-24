@@ -9,6 +9,7 @@ import Clock from "./03/Clock";
 import SnapshotSample from "./04/SnapshotSample";
 import DomDiff from "./05/DomDiff";
 import { AdvancedTabSelectorSample } from "./06/AdvancedTabSelector";
+import LocaleSample from "./07/LocaleSample";
 
 import "antd/dist/antd.css";
 
@@ -27,7 +28,8 @@ const routeMap = {
   clock: Clock,
   "snapshot-sample": SnapshotSample,
   "dom-diff": DomDiff,
-  "adv-tab-selector": AdvancedTabSelectorSample
+  "adv-tab-selector": AdvancedTabSelectorSample,
+  "locale-sample": LocaleSample
 };
 
 class App extends React.PureComponent {
