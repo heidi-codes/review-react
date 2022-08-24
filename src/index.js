@@ -12,6 +12,7 @@ import { AdvancedTabSelectorSample } from "./06/AdvancedTabSelector";
 import LocaleSample from "./07/LocaleSample";
 import PureRedux from "./11/PureRedux";
 import Counter from "./12/Counter";
+import OrgActions from "./14/OrgActions";
 
 import "antd/dist/antd.css";
 
@@ -33,7 +34,8 @@ const routeMap = {
   "adv-tab-selector": AdvancedTabSelectorSample,
   "locale-sample": LocaleSample,
   "pure-redux": PureRedux,
-  counter: Counter
+  counter: Counter,
+  "org-actions": OrgActions
 };
 
 class App extends React.PureComponent {
