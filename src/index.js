@@ -6,6 +6,7 @@ import CommentBox from "./02/CommentBox";
 import { TabSelectorSample } from "./02/TabSelector";
 import { StatefulTabSelectSample } from "./02/StatefulTabSelector";
 import Clock from "./03/Clock";
+import SnapshotSample from "./04/SnapshotSample";
 
 import "antd/dist/antd.css";
 
@@ -21,7 +22,8 @@ const routeMap = {
   "comment-box": CommentBox,
   "tab-selector": TabSelectorSample,
   "stateful-tab-selector": StatefulTabSelectSample,
-  clock: Clock
+  clock: Clock,
+  "snapshot-sample": SnapshotSample
 };
 
 class App extends React.PureComponent {
